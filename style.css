@@ -2618,7 +2618,7 @@ hr {
 }
 .valorizacao__content__items ul li {
     width: 220px;
-    height: 140px;
+    height: 200px;
     background-color: #FEEDE8;
     border-radius: 24px;
     margin-right: 25px;
@@ -2626,7 +2626,7 @@ hr {
 }
 .valorizacao__content__items h4 {
     color: #53555A;
-    font-size: 100px;
+    font-size: 92px;
     line-height: 75px;
     font-weight: bold;
     display: flex;
@@ -2645,11 +2645,12 @@ hr {
     word-spacing: -6px;
 }
 .valorizacao__content__items p {
+    text-align: center;
     color: #53555A;
     font-size: 21px;
     line-height: 28px;
     font-weight: 400;
-    padding: 5px 25px 0 25px;
+    padding: 5px 5px 0 5px;
 }
 .valorizacao__content__items ul li:last-child h4,
 .valorizacao__content__items ul li:last-child span,
@@ -3752,9 +3753,9 @@ footer {
     .perfil__img {
         position: relative;
         top: inherit;
-        left: 0;
-        margin-left: -19px;
-        width: 100%;
+        left: inherit;
+        margin-left: 0;
+        max-height: 405px;
     }
     .perfil__content {
         display: flex;
@@ -4108,6 +4109,42 @@ footer {
     }
     .numbers__items__item {
         margin: 0 9px;
+    }
+    #perfil:before {
+        height: 509px;
+    }
+    .perfil__img {
+        max-height: 469px;
+    }
+    .etica__action,
+    .etica__action ul {
+        width: 100%;
+    }
+    .etica__action ul {
+        align-items: inherit;
+    }
+    .etica__action h4 strong {
+        font-size: 53px;
+    }
+    .etica__action h5 {
+        font-size: 90px;
+    }
+    .etica__action p {
+        font-size: 15px;
+    }
+    .etica__action ul li {
+        width: 244px;
+        height: auto;
+    }
+    .etica__items ul {
+        display: block;
+    }
+    .etica__items ul li {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .mobilidade__img {
+        top: -20px;
     }
 }
 
