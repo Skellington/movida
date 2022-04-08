@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="MDI_close-box" data-name="MDI / close-box" transform="translate(0 0.309)">
+    <g id="Boundary" transform="translate(0 -0.309)" fill="#858280" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="30" height="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" fill="none"/>
+    </g>
+    <path id="Path_close-box" data-name="Path / close-box" d="M22.778,3H5.472A2.472,2.472,0,0,0,3,5.472V22.778A2.472,2.472,0,0,0,5.472,25.25H22.778a2.472,2.472,0,0,0,2.472-2.472V5.472A2.472,2.472,0,0,0,22.778,3m-4.2,17.306-4.45-4.45-4.45,4.45L7.944,18.575l4.45-4.45-4.45-4.45L9.675,7.944l4.45,4.45,4.45-4.45,1.731,1.731-4.45,4.45,4.45,4.45Z" transform="translate(0.222 1.041)" fill="#858280"/>
+  </g>
+</svg>

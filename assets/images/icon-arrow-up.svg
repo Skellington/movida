@@ -1,0 +1,7 @@
+<svg id="MDI_arrow-up-thin-circle-outline" data-name="MDI / arrow-up-thin-circle-outline" xmlns="http://www.w3.org/2000/svg" width="27.211" height="27.211" viewBox="0 0 27.211 27.211">
+  <g id="Boundary" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="27.211" height="27.211" stroke="none"/>
+    <rect x="0.5" y="0.5" width="26.211" height="26.211" fill="none"/>
+  </g>
+  <path id="Path_arrow-up-thin-circle-outline" data-name="Path / arrow-up-thin-circle-outline" d="M13.338,4.234a9.1,9.1,0,1,0,9.1,9.1,9.141,9.141,0,0,0-9.1-9.1m0-2.234A11.338,11.338,0,1,1,2,13.338,11.313,11.313,0,0,1,13.338,2m1.134,9.592h3.4L13.338,7.1,8.8,11.592h3.4v7.982h2.268" transform="translate(0.268 0.268)" fill="#fff"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1934.809" height="1925.527" viewBox="0 0 1934.809 1925.527">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.033" y1="0.973" x2="0.764" y2="0.441" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f05423"/>
+      <stop offset="0.439" stop-color="#f26821" stop-opacity="0.471"/>
+      <stop offset="1" stop-color="#f47920" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Caminho_157" data-name="Caminho 157" d="M-93.047-250.591,677.72-809.146,861.389-103.571l488.186,471.436L-203.5,146.155Z" transform="matrix(0.719, -0.695, 0.695, 0.719, 708.466, 1519.545)" opacity="0.42" fill="url(#linear-gradient)"/>
+</svg>
