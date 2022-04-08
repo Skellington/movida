@@ -3546,13 +3546,17 @@ footer {
     -o-transition: .25s ease-in-out;
     transition: .25s ease-in-out;
 }
+#menuToggle span:nth-child(1),
 #menuToggle2 span:nth-child(1) {
     top: 0px;
 }
+#menuToggle span:nth-child(2),
+#menuToggle span:nth-child(3),
 #menuToggle2 span:nth-child(2),
 #menuToggle2 span:nth-child(3) {
     top: 7px;
 }
+#menuToggle span:nth-child(4),
 #menuToggle2 span:nth-child(4) {
     top: 14px;
 }
