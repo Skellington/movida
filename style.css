@@ -4490,4 +4490,71 @@ footer {
 }
 
 @media (max-width: 320px) {
+    .logo__nav h2 {
+        font-size: 10px;
+    }
+    .welcome__img__info img {
+        margin-right: 10px;
+        width: 50px;
+    }
+    .welcome__img__info__number {
+        margin-right: 20px;
+    }
+    .welcome__img__info__text {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .welcome__img__info {
+        height: 190px;
+    }
+    .numbers__items__item h4 {
+        font-size: 43px;
+        line-height: 43px;
+    }
+    .numbers__items__item {
+        width: 122px;
+        text-align: center;
+        margin: 0 3px;
+    }
+    .desempenho__content__more__items {
+        padding: 21px 20px 20px;
+    }
+    .desempenho__content__more__item p {
+        font-size: 14px;
+    }
+    .footer__logo p {
+        font-size: 12px;
+    }
+    .perfil__img {
+        max-height: 329px;
+    }
+    #perfil:before {
+        height: 862px;
+    }
+    .perfil__numbers ul p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .perfil__numbers ul span {
+        font-size: 60px;
+        line-height: 59px;
+    }
+    .perfil__numbers ul li {
+        margin-right: 15px;
+    }
+    .perfil__numbers ul {
+        width: 230px;
+    }
+    .perfil__value h3 { 
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .mobilidade__img {
+        right: -10px;
+    }
+    .inovacao__items ul li {
+        position: relative;
+        min-width: 100%;
+    }
+
 }
