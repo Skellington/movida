@@ -1303,6 +1303,7 @@ header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(2px);
+    -moz-backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
 }
 .logo__nav {
@@ -1879,7 +1880,7 @@ hr {
     border: none;
     padding: 0;
 }
-.box-pattern__bottom .btn-more span {
+.box-pattern__bottom .btn-more span.icon__btn {
     color: rgba(255,255,255,0.70);
 }
 .etica__info__action {
@@ -2572,7 +2573,7 @@ hr {
     z-index: -1;
     width: 2403px;
     height: 1767px;
-    top: -500px;
+    top: -920px;
     left: 50%;
     margin-left: -1570px;
     background-image: url(assets/images/detail-shape.svg);
@@ -2585,6 +2586,170 @@ hr {
 #valorizacao .title h1,
 #valorizacao .title h2 {
     color: #F05423;
+}
+.valorizacao__content__feat {
+    display: flex;
+    justify-content: space-between;
+}
+.valorizacao__content {
+    padding-right: 30px;
+}
+.valorizacao__content hr {
+    position: absolute;
+    width: 892px;
+    border-top: thin solid #F05423;
+}
+.valorizacao__content__text__about {
+    margin-top: 70px;
+}
+.valorizacao__content__text__about p {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.valorizacao__content__items ul {
+    display: flex;
+}
+.valorizacao__content__items ul li {
+    width: 220px;
+    height: 140px;
+    background-color: #FEEDE8;
+    border-radius: 24px;
+    margin-right: 25px;
+    padding: 0 15px 0 15px;
+}
+.valorizacao__content__items h4 {
+    color: #53555A;
+    font-size: 100px;
+    line-height: 75px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    margin-top: -14px;
+}
+.valorizacao__content__items h4 span,
+.valorizacao__content__items h4 span i {
+    color: #53555A;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.valorizacao__content__items ul li:last-child h4 span {
+    word-spacing: -6px;
+}
+.valorizacao__content__items p {
+    color: #53555A;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 5px 25px 0 25px;
+}
+.valorizacao__content__items ul li:last-child h4,
+.valorizacao__content__items ul li:last-child span,
+.valorizacao__content__items ul li:last-child h4 span i,
+.valorizacao__content__items ul li:last-child p {
+    color: #F05423;
+}
+
+.valorizacao__feat {
+    width: 50%;
+    margin-top: 130px;
+}
+.valorizacao__feat img {
+    margin-bottom: 80px;
+}
+.valorizacao__feat .inovacao__items__title,
+.valorizacao__feat__items {
+    padding-left: 100px;
+}
+
+.valorizacao__feat__items ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.valorizacao__feat__items ul li {
+    width: 196px;
+    height: 154px;
+    background-color: #FEEDE8;
+    border-radius: 24px;
+    margin-bottom: 40px;
+    padding: 0 15px 0 15px;
+}
+.valorizacao__feat__items ul li:first-child {
+    height: 200px;
+    margin-right: 25px;
+}
+.valorizacao__feat__items ul li:last-child {
+    width: 425px;
+    height: 135px;
+    padding: 0 30px 0 30px;
+}
+.valorizacao__feat__items span {
+    display: block;
+    font-family: "bebas-neue-pro",sans-serif;
+    color: #FF9E0D;
+    font-size: 39px;
+    line-height: 39px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.valorizacao__feat__items ul li:first-child span {
+    color: #53555A;
+    margin-top: -50px;
+    padding-left: 15px;
+}
+.valorizacao__feat__items ul li:last-child {
+    display: flex;
+    align-items: flex-end;
+}
+.valorizacao__feat__items ul li:last-child span {
+    color: #F47920;
+    font-size: 67px;
+    line-height: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+.valorizacao__feat__items h4 {
+    color: #FF9E0D;
+    font-size: 100px;
+    line-height: 75px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+.valorizacao__feat__items ul li:first-child h4 {
+    padding-left: 15px;
+    color: #53555A;
+    margin: 0;
+}
+.valorizacao__feat__items ul li:last-child h4 {
+    color: #F47920;
+    margin: 0;
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+.valorizacao__feat__items p {
+    text-align: center;
+    color: #FF9E0D;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.valorizacao__feat__items ul li:first-child p {
+    color: #53555A;
+}
+.valorizacao__feat__items ul li:last-child p {
+    color: #F47920;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 40px;
+    padding-bottom: 29px;
 }
 
 footer {
