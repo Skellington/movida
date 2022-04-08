@@ -2112,7 +2112,7 @@ hr {
     color: #858280;
     font-size: 24px;
     line-height: 29px;
-    font-size: 400;
+    font-weight: 400;
 }
 .mobilidade__item2 h4 span {
     font-family: "bebas-neue-pro",sans-serif;
@@ -4145,6 +4145,61 @@ footer {
     }
     .mobilidade__img {
         top: -20px;
+    }
+    .mobilidade__content__more__items ul {
+        justify-content: center;
+    } 
+    .mobilidade__content__more__items ul li {
+        margin: 0 0 35px 0;
+    }
+    #inovacao .box-pattern {
+        width: 100%;
+    }
+    .experiencia__img__content__item ul li h4 {
+        font-size: 70px;
+        line-height: 56px;
+    }
+    .experiencia__img__content__item {
+        width: 174px;
+    }
+    .experiencia__img__content__item ul {
+        display: block;
+    }
+    .experiencia__img__content__item ul li {
+        width: 100%;
+    }
+    .experiencia__img__content__item ul li p {
+        position: 0;
+    }
+    .experiencia__img__content__item ul:before {
+        display: none;
+    }
+    .experiencia__img__content__item ul li:last-child {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    #experiencia:before {
+        height: 800px;
+    }
+    .sustentavel__feat p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .sustentavel__feat {
+        padding: 15px;
+    }
+    #valorizacao span.icon {
+        margin-bottom: 20px;
+    }
+    #valorizacao .inovacao__items__title {
+        margin-bottom: 40px;
+    }
+    .box-pattern__content p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .box-pattern__content {
+        padding: 30px 30px 95px 30px;
     }
 }
 
