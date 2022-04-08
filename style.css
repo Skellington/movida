@@ -1535,6 +1535,7 @@ main {
 
 #perfil {
     position: relative;
+    z-index: 2;
     margin-bottom: 140px;
 }
 #perfil:before {
@@ -1542,7 +1543,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 2;
     width: 100%;
     height: 633px;
     background: rgb(240,84,35);
@@ -1550,11 +1551,14 @@ main {
 }
 .perfil__img {
     position: absolute;
+    z-index: 4;
     top: -47px;
     left: 50%;
     margin-left: -643px;
 }
 .perfil__content {
+    position: relative;
+    z-index: 2;
     display: flex;
     justify-content: flex-end;
 }
@@ -1989,7 +1993,8 @@ hr {
 }
 
 #mobilidade {
-    margin-bottom: 170px;
+    margin-bottom: 60px;
+    min-height: 1268px;
 }
 .mobilidade__content {
     position: relative;
@@ -2170,7 +2175,7 @@ hr {
 
 #inovacao {
     position: relative;
-    margin-bottom: 170px;
+    margin-bottom: 120px;
 }
 .inovacao__content span.icon {
     margin-top: 0;
