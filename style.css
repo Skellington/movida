@@ -4413,6 +4413,17 @@ footer {
     .footer__logo img {
         width: 110px;
     }
+    .valorizacao__feat__items ul li {
+        margin-bottom: 60px;
+    }
+    .valorizacao__content__items ul li {
+        height: auto;
+        margin-right: 0;
+        padding: 30px 15px 20px 15px;
+    }
+    .valorizacao__content {
+        padding-right: 0;
+    }
 
 }
 
@@ -4427,12 +4438,52 @@ footer {
     .desempenho__content__more__table ul li h3 {
         font-size: 18px;
     }
+    .valorizacao__feat__items h4 {
+        font-size: 80px;
+        line-height: 55px;
+    }
 }
 
 @media (max-width: 411px) {
+    .desempenho__content__more__item__value h4 {
+        font-size: 40px;
+        line-height: 33px;
+    }
+    .desempenho__content__more__item__value h4 span {
+        font-size: 32px;
+    }
+    .desempenho__content__more__item p {
+        width: auto;
+        padding-top: 30px
+    }
+    .desempenho__content__more__item__value {
+        margin: 16px 10px 7px 10px;
+    }
+    .desempenho__box2 .desempenho__content__more__item__value .price {
+        margin: 11px 0 0 0;
+    }
+    .desempenho__box2 .desempenho__content__more__item__value .price {
+        font-size: 26px;
+        line-height: 23px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 375px) {
+    .numbers__items__item {
+        padding: 25px 6px;
+    }
+    .ambiental__content__more__items .ambiental__flower h4 {
+        font-size: 50px;
+    }
+    .ambiental__content__more__items h4 {
+        font-size: 70px;
+    }
+    .ambiental__content__more__items p {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 360px) {
