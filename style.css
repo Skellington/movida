@@ -4246,7 +4246,7 @@ footer {
         display: block;
     }
     .perfil__value ul li {
-        width: 100%
+        width: 100%;
         margin-bottom: 20px;
         padding-right: 0;
     }
@@ -4373,6 +4373,9 @@ footer {
         width: 100%;
         justify-content: center;
     }
+    .welcome__img__info {
+        width: 100%;
+    }
     .ambiental__content__more__title img {
         width: 50px;
     }
@@ -4411,10 +4414,19 @@ footer {
         width: 110px;
     }
 
-
 }
 
 @media (max-width: 414px) {
+    .welcome__img__info__text {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .numbers__items__item h4 {
+        line-height: 60px;
+    }
+    .desempenho__content__more__table ul li h3 {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 411px) {
