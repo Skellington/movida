@@ -1322,6 +1322,41 @@ header {
     text-transform: uppercase;
 }
 
+.menu-language {
+    display: flex;
+    align-items: center;
+}
+.language {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.language span {
+    display: table;
+    color: #F05423;
+    font-size: 16px;
+    font-size: 400;
+    margin: 0 5px 0 3px;
+}
+.language a {
+    color: #F05423;
+    font-size: 16px;
+    font-size: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+.language a.active,
+.language a:hover {
+    color: #F05423;
+    font-weight: 700;
+}
+
+.menu-principal .language {
+    display: none;
+    margin-top: 30px;
+}
+
 main {
     overflow: hidden;
 }
@@ -1917,7 +1952,7 @@ hr {
 }
 .etica__action h4 {
     color: #F05423;
-    font-size: 32px;
+    font-size: 31px;
     line-height: 40px;
     font-weight: 300;
     text-transform: uppercase;
@@ -2211,7 +2246,7 @@ hr {
 }
 
 .inovacao__items__title {
-    width: 50%;
+    width: 53%;
     display: flex;
     align-items: flex-start;
     margin-bottom: 60px;
@@ -2429,6 +2464,16 @@ hr {
     line-height: 56px;
     font-weight: 900;
 }
+.experiencia__img__content__item ul li h5 {
+    font-family: "bebas-neue-pro",sans-serif;
+    color: #FEEDE8;
+    font-size: 39px;
+    line-height: 82px;
+    margin-bottom: 15px;
+    font-weight: 900;
+    display: flex;
+    align-items: flex-end;
+}
 .experiencia__img__content__item ul li p {
     color: #FEEDE8;
     font-size: 16px;
@@ -2644,7 +2689,8 @@ hr {
 .valorizacao__content__items ul li:last-child h4 span {
     word-spacing: -6px;
 }
-.valorizacao__content__items p {
+.valorizacao__content__items p,
+.valorizacao__content__items p i {
     text-align: center;
     color: #53555A;
     font-size: 21px;
@@ -2652,10 +2698,14 @@ hr {
     font-weight: 400;
     padding: 5px 5px 0 5px;
 }
+.valorizacao__content__items p i {
+    padding: 0;
+}
 .valorizacao__content__items ul li:last-child h4,
 .valorizacao__content__items ul li:last-child span,
 .valorizacao__content__items ul li:last-child h4 span i,
-.valorizacao__content__items ul li:last-child p {
+.valorizacao__content__items ul li:last-child p,
+.valorizacao__content__items p i {
     color: #F05423;
 }
 
@@ -3605,6 +3655,9 @@ footer {
         left: 50%;
         margin: 0 0 0 -47.5%;
     }
+    .language {
+        display: flex;
+    }
     .etica__action ul {
         width: 540px;
     }
@@ -3653,6 +3706,9 @@ footer {
     }
     .mobile_version {
         display: block !important;
+    }
+    .menu-principal .language {
+        display: block;
     }
     .menu-principal {
         visibility: hidden;
