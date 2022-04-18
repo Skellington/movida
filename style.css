@@ -1329,7 +1329,7 @@ header {
 .language {
     display: flex;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .language span {
     display: table;
@@ -1341,7 +1341,7 @@ header {
 .language a {
     color: #F05423;
     font-size: 16px;
-    font-size: 400;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 3px;
     word-spacing: 3px;
@@ -1355,6 +1355,15 @@ header {
 .menu-principal .language {
     display: none;
     margin-top: 30px;
+}
+
+.audio {
+    display: table;
+    width: 20px;
+    height: 20px;
+    background-image: url(assets/images/icon-audio.svg);
+    margin-right: 30px;
+    background-size: 100%;
 }
 
 main {
@@ -3708,7 +3717,10 @@ footer {
         display: block !important;
     }
     .menu-principal .language {
-        display: block;
+        display: flex;
+    }
+    .audio {
+        margin-left: 20px;
     }
     .menu-principal {
         visibility: hidden;
