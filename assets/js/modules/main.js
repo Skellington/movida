@@ -27,6 +27,16 @@ var main = {
     $('#menuToggle2').click(function(){
       $(this).toggleClass('open');
     });
+
+    $(".audio").click(function () {
+      if ($("audio").hasClass("expanded")) {
+        $("audio.expanded").removeClass("expanded");
+        $(this).removeClass("active");
+      } else {
+        $("audio").addClass("expanded");
+        $(this).addClass("active");
+      }
+    });
   },
 }
 main.init();

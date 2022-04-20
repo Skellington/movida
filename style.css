@@ -1365,6 +1365,21 @@ header {
     margin-right: 30px;
     background-size: 100%;
 }
+.audio.active {
+    background-image: url(assets/images/icon-audio-out.svg);
+}
+audio {
+    position: absolute;
+    z-index: 2;
+    top: -150px;
+    left: 50%;
+    margin-left: 250px;
+    -webkit-transition: 0.3s ease-out;
+}
+audio.expanded {
+    top: 48px;
+    -webkit-transition: 0.3s ease-out;
+}
 
 main {
     overflow: hidden;
@@ -3706,6 +3721,11 @@ footer {
     }
     .desempenho__content__more__item:before {
         width: 372px;
+    }
+    audio {
+        left: inherit;
+        right: 0;
+        margin-left: 0;
     }
 }
 
