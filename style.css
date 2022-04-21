@@ -4191,6 +4191,18 @@ footer {
         font-size: 30px;
         line-height: 36px;
     }
+    audio {
+        top: inherit;
+        bottom: -150px;
+        position: fixed;
+        z-index: 20;
+        left: 50%;
+        margin-left: -150px;
+    }
+    audio.expanded {
+        top: inherit;
+        bottom: 0px;
+    }
 }
 
 @media (max-width: 560px) {
